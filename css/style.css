@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&family=Vazirmatn:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Roboto', sans-serif;;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px;
+}
+.hero__item {
+    max-width: 200px;
+    width: 100%;
+    background: #D9D9D9;
+    padding-top: 18px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+.card__pic {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 11px;
+}
+.cards__title {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card__price {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.card__text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.card__about {
+    max-width: 176px;
+    width: 100%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.card__name {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.card__wrap {
+   display: flex;
+   justify-content: space-between;
+    margin-top: 27px;
+    padding-bottom: 15px;
+}
+
+.card__btn {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
